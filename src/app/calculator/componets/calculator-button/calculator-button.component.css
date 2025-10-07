@@ -7,3 +7,7 @@ button {
 .is-command {
   @apply bg-indigo-700/20 hover:bg-indigo-700/45;
 }
+
+.is-pressed {
+  @apply bg-indigo-900/20;
+}
