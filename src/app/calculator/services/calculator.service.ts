@@ -110,7 +110,7 @@ export class CalculatorService {
   }
 
   public calculateResult() {
-    const number1 = parseFloat(this.resultText());
+    const number1 = parseFloat(this.subResultText());
     const number2 = parseFloat(this.resultText());
 
     let result = 0;
