@@ -15,14 +15,14 @@ export class CalculatorService {
   public construcNumber(value: string): void {
     //validar input
     if (![...numbers, ...operators, ...specialOperators].includes(value)) {
-      console.log('Invalid Input', value);
+      // console.log('Invalid Input', value);
       return;
     }
 
     // =
     if (value === '=') {
       this.calculateResult();
-      console.log('calcular resultado');
+      // console.log('calcular resultado');
       return;
     }
 
@@ -62,7 +62,7 @@ export class CalculatorService {
 
     // limitar numero de caracteres
     if (this.resultText().length >= 10) {
-      console.log('max length rached');
+      // console.log('max length rached');
       return;
     }
 
